@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B43C9610148CECD900D04A32 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B43C960F148CECD900D04A32 /* UIKit.framework */; };
+		B43C9612148CECD900D04A32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B43C9611148CECD900D04A32 /* Foundation.framework */; };
+		B43C9614148CECD900D04A32 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B43C9613148CECD900D04A32 /* CoreGraphics.framework */; };
+		B43C961A148CECD900D04A32 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B43C9618148CECD900D04A32 /* InfoPlist.strings */; };
+		B43C961C148CECD900D04A32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B43C961B148CECD900D04A32 /* main.m */; };
+		B43C9620148CECD900D04A32 /* GLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B43C961F148CECD900D04A32 /* GLAppDelegate.m */; };
+		B43C9628148CECD900D04A32 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B43C9627148CECD900D04A32 /* SenTestingKit.framework */; };
+		B43C9629148CECD900D04A32 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B43C960F148CECD900D04A32 /* UIKit.framework */; };
+		B43C962A148CECD900D04A32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B43C9611148CECD900D04A32 /* Foundation.framework */; };
+		B43C9632148CECD900D04A32 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B43C9630148CECD900D04A32 /* InfoPlist.strings */; };
+		B43C966E148CF0CE00D04A32 /* GameOfLifeSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = B43C966D148CF0CE00D04A32 /* GameOfLifeSpec.m */; };
+		B43C966F148CF11700D04A32 /* libKiwi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B43C9666148CF03300D04A32 /* libKiwi.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B43C962B148CECD900D04A32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B43C9602148CECD900D04A32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B43C960A148CECD900D04A32;
+			remoteInfo = GameOfLifeObjectiveC;
+		};
+		B43C9665148CF03300D04A32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B43C965C148CF03300D04A32 /* Kiwi.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F5015B9F11583A77002E9A98;
+			remoteInfo = Kiwi;
+		};
+		B43C9667148CF03300D04A32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B43C965C148CF03300D04A32 /* Kiwi.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F5015C9E11584017002E9A98;
+			remoteInfo = KiwiTests;
+		};
+		B43C9669148CF03300D04A32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B43C965C148CF03300D04A32 /* Kiwi.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A3B16542139967B800E9CC6E;
+			remoteInfo = KiwiExamples;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B43C960B148CECD900D04A32 /* GameOfLifeObjectiveC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameOfLifeObjectiveC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B43C960F148CECD900D04A32 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B43C9611148CECD900D04A32 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B43C9613148CECD900D04A32 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B43C9617148CECD900D04A32 /* GameOfLifeObjectiveC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GameOfLifeObjectiveC-Info.plist"; sourceTree = "<group>"; };
+		B43C9619148CECD900D04A32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B43C961B148CECD900D04A32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B43C961D148CECD900D04A32 /* GameOfLifeObjectiveC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GameOfLifeObjectiveC-Prefix.pch"; sourceTree = "<group>"; };
+		B43C961E148CECD900D04A32 /* GLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLAppDelegate.h; sourceTree = "<group>"; };
+		B43C961F148CECD900D04A32 /* GLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLAppDelegate.m; sourceTree = "<group>"; };
+		B43C9626148CECD900D04A32 /* GameOfLifeObjectiveCTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameOfLifeObjectiveCTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B43C9627148CECD900D04A32 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B43C962F148CECD900D04A32 /* GameOfLifeObjectiveCTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GameOfLifeObjectiveCTests-Info.plist"; sourceTree = "<group>"; };
+		B43C9631148CECD900D04A32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B43C965C148CF03300D04A32 /* Kiwi.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Kiwi.xcodeproj; path = "allending-Kiwi/Kiwi.xcodeproj"; sourceTree = "<group>"; };
+		B43C966D148CF0CE00D04A32 /* GameOfLifeSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOfLifeSpec.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B43C9608148CECD900D04A32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43C9610148CECD900D04A32 /* UIKit.framework in Frameworks */,
+				B43C9612148CECD900D04A32 /* Foundation.framework in Frameworks */,
+				B43C9614148CECD900D04A32 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43C9622148CECD900D04A32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43C966F148CF11700D04A32 /* libKiwi.a in Frameworks */,
+				B43C9628148CECD900D04A32 /* SenTestingKit.framework in Frameworks */,
+				B43C9629148CECD900D04A32 /* UIKit.framework in Frameworks */,
+				B43C962A148CECD900D04A32 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B43C9600148CECD900D04A32 = {
+			isa = PBXGroup;
+			children = (
+				B43C9615148CECD900D04A32 /* GameOfLife */,
+				B43C962D148CECD900D04A32 /* GameOfLifeSpec */,
+				B43C960E148CECD900D04A32 /* Frameworks */,
+				B43C960C148CECD900D04A32 /* Products */,
+				B43C965C148CF03300D04A32 /* Kiwi.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		B43C960C148CECD900D04A32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B43C960B148CECD900D04A32 /* GameOfLifeObjectiveC.app */,
+				B43C9626148CECD900D04A32 /* GameOfLifeObjectiveCTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B43C960E148CECD900D04A32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B43C960F148CECD900D04A32 /* UIKit.framework */,
+				B43C9611148CECD900D04A32 /* Foundation.framework */,
+				B43C9613148CECD900D04A32 /* CoreGraphics.framework */,
+				B43C9627148CECD900D04A32 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B43C9615148CECD900D04A32 /* GameOfLife */ = {
+			isa = PBXGroup;
+			children = (
+				B43C961E148CECD900D04A32 /* GLAppDelegate.h */,
+				B43C961F148CECD900D04A32 /* GLAppDelegate.m */,
+				B43C9616148CECD900D04A32 /* Supporting Files */,
+			);
+			name = GameOfLife;
+			path = GameOfLifeObjectiveC;
+			sourceTree = "<group>";
+		};
+		B43C9616148CECD900D04A32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B43C9617148CECD900D04A32 /* GameOfLifeObjectiveC-Info.plist */,
+				B43C9618148CECD900D04A32 /* InfoPlist.strings */,
+				B43C961B148CECD900D04A32 /* main.m */,
+				B43C961D148CECD900D04A32 /* GameOfLifeObjectiveC-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B43C962D148CECD900D04A32 /* GameOfLifeSpec */ = {
+			isa = PBXGroup;
+			children = (
+				B43C962E148CECD900D04A32 /* Supporting Files */,
+				B43C966D148CF0CE00D04A32 /* GameOfLifeSpec.m */,
+			);
+			name = GameOfLifeSpec;
+			path = GameOfLifeObjectiveCTests;
+			sourceTree = "<group>";
+		};
+		B43C962E148CECD900D04A32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B43C962F148CECD900D04A32 /* GameOfLifeObjectiveCTests-Info.plist */,
+				B43C9630148CECD900D04A32 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B43C965D148CF03300D04A32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B43C9666148CF03300D04A32 /* libKiwi.a */,
+				B43C9668148CF03300D04A32 /* KiwiTests.octest */,
+				B43C966A148CF03300D04A32 /* KiwiExamples.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B43C960A148CECD900D04A32 /* GameOfLifeObjectiveC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B43C9638148CECD900D04A32 /* Build configuration list for PBXNativeTarget "GameOfLifeObjectiveC" */;
+			buildPhases = (
+				B43C9607148CECD900D04A32 /* Sources */,
+				B43C9608148CECD900D04A32 /* Frameworks */,
+				B43C9609148CECD900D04A32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GameOfLifeObjectiveC;
+			productName = GameOfLifeObjectiveC;
+			productReference = B43C960B148CECD900D04A32 /* GameOfLifeObjectiveC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B43C9625148CECD900D04A32 /* GameOfLifeObjectiveCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B43C963B148CECD900D04A32 /* Build configuration list for PBXNativeTarget "GameOfLifeObjectiveCTests" */;
+			buildPhases = (
+				B43C9621148CECD900D04A32 /* Sources */,
+				B43C9622148CECD900D04A32 /* Frameworks */,
+				B43C9623148CECD900D04A32 /* Resources */,
+				B43C9624148CECD900D04A32 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B43C962C148CECD900D04A32 /* PBXTargetDependency */,
+			);
+			name = GameOfLifeObjectiveCTests;
+			productName = GameOfLifeObjectiveCTests;
+			productReference = B43C9626148CECD900D04A32 /* GameOfLifeObjectiveCTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B43C9602148CECD900D04A32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Cleancode;
+			};
+			buildConfigurationList = B43C9605148CECD900D04A32 /* Build configuration list for PBXProject "GameOfLifeObjectiveC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B43C9600148CECD900D04A32;
+			productRefGroup = B43C960C148CECD900D04A32 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B43C965D148CF03300D04A32 /* Products */;
+					ProjectRef = B43C965C148CF03300D04A32 /* Kiwi.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				B43C960A148CECD900D04A32 /* GameOfLifeObjectiveC */,
+				B43C9625148CECD900D04A32 /* GameOfLifeObjectiveCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B43C9666148CF03300D04A32 /* libKiwi.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libKiwi.a;
+			remoteRef = B43C9665148CF03300D04A32 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B43C9668148CF03300D04A32 /* KiwiTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = KiwiTests.octest;
+			remoteRef = B43C9667148CF03300D04A32 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B43C966A148CF03300D04A32 /* KiwiExamples.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = KiwiExamples.octest;
+			remoteRef = B43C9669148CF03300D04A32 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B43C9609148CECD900D04A32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43C961A148CECD900D04A32 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43C9623148CECD900D04A32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43C9632148CECD900D04A32 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B43C9624148CECD900D04A32 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B43C9607148CECD900D04A32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43C961C148CECD900D04A32 /* main.m in Sources */,
+				B43C9620148CECD900D04A32 /* GLAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43C9621148CECD900D04A32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43C966E148CF0CE00D04A32 /* GameOfLifeSpec.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B43C962C148CECD900D04A32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B43C960A148CECD900D04A32 /* GameOfLifeObjectiveC */;
+			targetProxy = B43C962B148CECD900D04A32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B43C9618148CECD900D04A32 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B43C9619148CECD900D04A32 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B43C9630148CECD900D04A32 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B43C9631148CECD900D04A32 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B43C9636148CECD900D04A32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B43C9637148CECD900D04A32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B43C9639148CECD900D04A32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameOfLifeObjectiveC/GameOfLifeObjectiveC-Prefix.pch";
+				INFOPLIST_FILE = "GameOfLifeObjectiveC/GameOfLifeObjectiveC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B43C963A148CECD900D04A32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameOfLifeObjectiveC/GameOfLifeObjectiveC-Prefix.pch";
+				INFOPLIST_FILE = "GameOfLifeObjectiveC/GameOfLifeObjectiveC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B43C963C148CECD900D04A32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GameOfLifeObjectiveC.app/GameOfLifeObjectiveC";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameOfLifeObjectiveC/GameOfLifeObjectiveC-Prefix.pch";
+				HEADER_SEARCH_PATHS = "allending-Kiwi/**";
+				INFOPLIST_FILE = "GameOfLifeObjectiveCTests/GameOfLifeObjectiveCTests-Info.plist";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B43C963D148CECD900D04A32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GameOfLifeObjectiveC.app/GameOfLifeObjectiveC";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameOfLifeObjectiveC/GameOfLifeObjectiveC-Prefix.pch";
+				HEADER_SEARCH_PATHS = "allending-Kiwi/**";
+				INFOPLIST_FILE = "GameOfLifeObjectiveCTests/GameOfLifeObjectiveCTests-Info.plist";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B43C9605148CECD900D04A32 /* Build configuration list for PBXProject "GameOfLifeObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B43C9636148CECD900D04A32 /* Debug */,
+				B43C9637148CECD900D04A32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B43C9638148CECD900D04A32 /* Build configuration list for PBXNativeTarget "GameOfLifeObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B43C9639148CECD900D04A32 /* Debug */,
+				B43C963A148CECD900D04A32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B43C963B148CECD900D04A32 /* Build configuration list for PBXNativeTarget "GameOfLifeObjectiveCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B43C963C148CECD900D04A32 /* Debug */,
+				B43C963D148CECD900D04A32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B43C9602148CECD900D04A32 /* Project object */;
+}
